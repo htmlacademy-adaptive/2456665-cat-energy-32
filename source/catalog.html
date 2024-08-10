@@ -5,6 +5,10 @@
   <meta charset="UTF-8">
   <title>Кэт энерджи - каталог товаров для кота</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="favicons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="favicons/180.png">
+  <link rel="manifest" href="manifest.webmanifest">
   <link rel="stylesheet" href="styles/styles.css">
   <script src="scripts/index.js" defer></script>
 </head>
@@ -13,8 +17,8 @@
 
   <header class="page-header">
     <a class="logo" href="index.html">
-      <img class="logo_icon" src="#" width="33" height="38" alt="Логотип с котом.">
-      <img class="logo_image" src="#" width="101" height="18" alt="Логотип текста Cat Energy.">
+      <img class="logo__icon" src="#" width="33" height="38" alt="Логотип с котом.">
+      <img class="logo__image" src="#" width="101" height="18" alt="Логотип текста Cat Energy.">
     </a>
     <nav class="main-nav">
       <button class="main-nav__toggle" type="button">
@@ -51,7 +55,11 @@
         <li class="catalog__item card">
           <div class="card__wrapper">
             <a class="card__link" href="#">
-              <img class="card__img" src="#" width="68" height="86" alt="Корм Cat Energy Pro. 500 г. Курица.">
+              <picture>
+                <source media="(min-width: 1440px)" width="161" height="172" srcset="images/catalog/card-1@1x.png 1x,  images/catalog/card-1@2x.png 2x" type="image/png">
+                <source media="(min-width: 768px)" width="161" height="172" srcset="images/catalog/card-1@1x.png 1x,  images/catalog/card-1@2x.png 2x" type="image/png">
+                <img class="card__img" src="images/catalog/card-1-mobile@1x.png" srcset="images/catalog/card-1-mobile@2x.png 2x" width="68" height="86" alt="Корм Cat Energy Pro. 500 г. Курица.">
+              </picture>
             </a>
             <div class="card__inner">
               <a class="card__link-title" href="#">
@@ -80,7 +88,11 @@
         <li class="catalog__item card">
           <div class="card__wrapper">
             <a class="card__link" href="#">
-              <img class="card__img" src="#" width="68" height="86" alt="Корм Cat Energy Pro. 1000 г. Курица.">
+              <picture>
+                <source media="(min-width: 1440px)" width="172" height="196" srcset="images/catalog/card-2-desktop@1x.png 1x,  images/catalog/card-2-desktop@2x.png 2x" type="image/png">
+                <source media="(min-width: 768px)" width="168" height="206" srcset="images/catalog/card-2-tablet@1x.png 1x,  images/catalog/card-2-tablet@2x.png 2x" type="image/png">
+                <img class="card__img" src="images/catalog/card-2-mobile@1x.png" srcset="images/catalog/card-2-mobile@2x.png 2x" width="84" height="100" alt="Корм Cat Energy Pro. 1000 г. Курица.">
+              </picture>
             </a>
             <div class="card__inner">
               <a class="card__link-title" href="#">
@@ -109,7 +121,11 @@
         <li class="catalog__item card">
           <div class="card__wrapper">
             <a class="card__link" href="#">
-              <img class="card__img" src="#" width="68" height="86" alt="Корм Cat Energy Pro. 500 г. Рыба.">
+              <picture>
+                <source media="(min-width: 1440px)" width="163" height="174" srcset="images/catalog/card-3@1x.png 1x,  images/catalog/card-3@2x.png 2x" type="image/png">
+                <source media="(min-width: 768px)" width="163" height="174" srcset="images/catalog/card-3@1x.png 1x,  images/catalog/card-3@2x.png 2x" type="image/png">
+                <img class="card__img" src="images/catalog/card-3-mobile@1x.png" srcset="images/catalog/card-3-mobile@2x.png 2x" width="68" height="76" alt="Корм Cat Energy Pro. 500 г. Рыба.">
+              </picture>
             </a>
             <div class="card__inner">
               <a class="card__link-title" href="#">
@@ -138,7 +154,11 @@
         <li class="catalog__item card">
           <div class="card__wrapper">
             <a class="card__link" href="#">
-              <img class="card__img" src="#" width="68" height="86" alt="Корм Cat Energy Pro. 1000 г. Рыба.">
+              <picture>
+                <source media="(min-width: 1440px)" width="172" height="196" srcset="images/catalog/card-4-desktop@1x.png 1x,  images/catalog/card-4-desktop@2x.png 2x" type="image/png">
+                <source media="(min-width: 768px)" width="168" height="200" srcset="images/catalog/card-4-tablet@1x.png 1x,  images/catalog/card-4-tablet@2x.png 2x" type="image/png">
+                <img class="card__img" src="images/catalog/card-4-mobile@1x.png" srcset="images/catalog/card-4-mobile@2x.png 2x" width="84" height="100" alt="Корм Cat Energy Pro. 1000 г. Рыба.">
+              </picture>
             </a>
             <div class="card__inner">
               <a class="card__link-title" href="#">
@@ -167,7 +187,11 @@
         <li class="catalog__item card">
           <div class="card__wrapper">
             <a class="card__link" href="#">
-              <img class="card__img" src="#" width="68" height="86" alt="Корм Cat Energy Pro. 500 г. Гречка.">
+              <picture>
+                <source media="(min-width: 1440px)" width="161" height="171" srcset="images/catalog/card-5@1x.png 1x,  images/catalog/card-5@2x.png 2x" type="image/png">
+                <source media="(min-width: 768px)" width="161" height="171" srcset="images/catalog/card-5@1x.png 1x,  images/catalog/card-5@2x.png 2x" type="image/png">
+                <img class="card__img" src="images/catalog/card-5-mobile@1x.png" srcset="images/catalog/card-5-mobile@2x.png 2x" width="68" height="78" alt="Корм Cat Energy Pro. 500 г. Гречка.">
+              </picture>
             </a>
             <div class="card__inner">
               <a class="card__link-title" href="#">
@@ -196,7 +220,11 @@
         <li class="catalog__item card">
           <div class="card__wrapper">
             <a class="card__link" href="#">
-              <img class="card__img" src="#" width="68" height="86" alt="Корм Cat Energy Pro. 1000 г. Гречка.">
+              <picture>
+                <source media="(min-width: 1440px)" width="172" height="196" srcset="images/catalog/card-6-desktop@1x.png 1x, images/catalog/card-6-desktop@2x.png 2x" type="image/png">
+                <source media="(min-width: 768px)" width="168" height="200" srcset="images/catalog/card-6-tablet@1x.png 1x,  images/catalog/card-6-tablet@2x.png 2x" type="image/png">
+                <img class="card__img" src="images/catalog/card-6-mobile@1x.png" srcset="images/catalog/card-6-mobile@2x.png 2x" width="84" height="100" alt="Корм Cat Energy Pro. 1000 г. Гречка.">
+              </picture>
             </a>
             <div class="card__inner">
               <a class="card__link-title" href="#">
@@ -225,7 +253,11 @@
         <li class="catalog__item card">
           <div class="card__wrapper">
             <a class="card__link" href="#">
-              <img class="card__img" src="#" width="68" height="86" alt="Корм Cat Energy Pro. 500 г. Рис.">
+              <picture>
+                <source media="(min-width: 1440px)" width="163" height="174" srcset="images/catalog/card-7@1x.png 1x,  images/catalog/card-7@2x.png 2x" type="image/png">
+                <source media="(min-width: 768px)" width="163" height="174" srcset="images/catalog/card-7@1x.png 1x,  images/catalog/card-7@2x.png 2x" type="image/png">
+                <img class="card__img" src="images/catalog/card-7-mobile@1x.png" srcset="images/catalog/card-7-mobile@2x.png 2x" width="72" height="84" alt="Корм Cat Energy Pro. 500 г. Рис.">
+              </picture>
             </a>
             <div class="card__inner">
               <a class="card__link-title" href="#">
@@ -264,43 +296,47 @@
 
     <section class="more-product">
       <h2 class="more-product__title">Дополнительные товары</h2>
-      <div class="more-product_wrapper">
+      <div class="more-product__wrapper">
         <ul class="more-product__list">
           <li class="more-product__item">
             <div class="more-product__inner">
               <h3 class="more-product__caption">Сахарозаменитель</h3>
-              <p class="more-product__pack">1 упаковка (100 г)</p>
-              <p class="more-product__price">200 ₽</p>
+              <span class="more-product__pack">1 упаковка (100 г)</span>
+              <span class="more-product__price">200 ₽</span>
             </div>
             <button class="more-product__button button" type="button">Заказать</button>
           </li>
           <li class="more-product__item">
             <div class="more-product__inner">
               <h3 class="more-product__caption">Питьевая вода</h3>
-              <p class="more-product__pack">5 литров</p>
-              <p class="more-product__price">50 ₽</p>
+              <span class="more-product__pack">5 литров</span>
+              <span class="more-product__price">50 ₽</span>
             </div>
             <button class="more-product__button button" type="button">Заказать</button>
           </li>
           <li class="more-product__item">
             <div class="more-product__inner">
               <h3 class="more-product__caption">молоко</h3>
-              <p class="more-product__pack">1 литр</p>
-              <p class="more-product__price">100 ₽</p>
+              <span class="more-product__pack">1 литр</span>
+              <span class="more-product__price">100 ₽</span>
             </div>
             <button class="more-product__button button" type="button">Заказать</button>
           </li>
           <li class="more-product__item">
             <div class="more-product__inner">
               <h3 class="more-product__caption">витамины</h3>
-              <p class="more-product__pack">1 упаковка (30 г)</p>
-              <p class="more-product__price">300 ₽</p>
+              <span class="more-product__pack">1 упаковка (30 г)</span>
+              <span class="more-product__price">300 ₽</span>
             </div>
             <button class="more-product__button button" type="button">Заказать</button>
           </li>
         </ul>
         <div class="present">
-          <img class="present_icon" src="#" width="80" height="83" alt="Иконка подарка.">
+          <picture>
+            <source media="(min-width: 1440px)" width="245" height="288" srcset="images/catalog/gift-photo-desktop@1x.jpg 1x, images/catalog/gift-photo-desktop@2x.jpg 2x" type="image/jpeg">
+            <source media="(min-width: 768px)" width="707" height="200" srcset="images/catalog/gift-photo-tablet@1x.jpg 1x, images/catalog/gift-photo-tablet@2x.jpg 2x" type="image/jpeg">
+            <img class="present_icon" src="images/catalog/" srcset="images/catalog/gift-photo-mobile@2x.jpg" width="280" height="290" alt="Чехол для кота в подарок">
+          </picture>
           <p class="present__text">Закажите все и получите чехол для кота в подарок!</p>
         </div>
       </div>
@@ -320,13 +356,19 @@
     </section>
 
     <section class="contacts">
-      <h2 class="visually-hidden">Контакты</h2>
       <div class="contacts__wrapper">
         <div class="contacts__address">
-          <p class="contacts__title">Приглашаем к сотрудничеству дилеров!</p>
+          <h2 class="contacts__title">Приглашаем к сотрудничеству дилеров!</h2>
           <address class="contacts__text">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</address>
         </div>
-        <div class="contacts__map"></div>
+        <div class="contacts__map">
+          <h2 class="visually-hidden">Как нас найти</h2>
+          <picture>
+            <source media="(min-width: 1440px)" width="1440" height="400" srcset="images/location-desktop@1x.png 1x, images/location-desktop@2x.png 2x" type="image/png">
+            <source media="(min-width: 768px)" width="768" height="600" srcset="images/location-tablet@1x.png 1x, images/location-tablet@2x.png 2x" type="image/png">
+            <img src="images/location-mobile@1x.png" srcset="images/location-mobile@2x.png" width="320" height="362" alt="Метка магазина на карте">
+          </picture>
+        </div>
       </div>
     </section>
 
@@ -334,8 +376,8 @@
   <footer class="page-footer">
 
     <div class="page-footer__wrapper">
-      <div class="page-footer__logo">
-        <a class="footer-logo_link" href="#">
+      <div class="page-footer__logo logo">
+        <a class="logo__link" href="#">
           Логотип названия магазина в svg формае
         </a>
       </div>

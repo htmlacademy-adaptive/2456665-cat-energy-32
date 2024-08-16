@@ -1,0 +1,18 @@
+.contacts__address {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contacts__title {
+  font-family: $second-font;
+  font-size: 16px;
+  line-height: 20px;
+  color: $color-black_1;
+  text-transform: uppercase;
+}
+
+.contacts__text {
+  font-size: 14px;
+  line-height: 20px;
+}

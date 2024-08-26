@@ -1,0 +1,60 @@
+.list-program__item {
+  background-color: $program-background-color;
+}
+
+.list-program__title {
+  position: relative;
+  font-family: $second-font;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 37px;
+  color: $color-black;
+  text-transform: uppercase;
+}
+
+.list-program__title::before {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 50px;
+  background-color: $basic-green;
+  border-radius: 50%;
+}
+
+.list-program__title--thin::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  width: 36px;
+  height: 50px;
+  background-image: url("../../icons/stack.svg#cat-sits");
+}
+
+.list-program__title--thick::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  width: 67px;
+  height: 28px;
+  background-image: url("../../icons/stack.svg#cat-goes");
+}
+
+.list-program__link {
+  position: relative;
+  font-family: $second-font;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: $color-black;
+  text-transform: uppercase;
+}
+
+.list-program__link::after {
+  position: absolute;
+  content: "";
+  top: 7px;
+  left: 90px;
+  width: 32px;
+  height: 10px;
+  background-image: url("../../icons/stack.svg#icon-arrow");
+}

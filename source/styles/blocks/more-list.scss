@@ -1,0 +1,14 @@
+.more-list__title {
+  font-family: $second-font;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: $special-grey;
+  text-transform: uppercase;
+}
+
+.more-list__price,
+.more-list__pack {
+  font-size: 14px;
+  line-height: 14px;
+}

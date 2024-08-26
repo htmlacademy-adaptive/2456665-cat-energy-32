@@ -1,0 +1,12 @@
+.example {
+  background-color: $color-grey;
+}
+
+.example__cost {
+  font-family: $second-font;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: $color-black;
+  text-transform: uppercase;
+}

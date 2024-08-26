@@ -1,0 +1,36 @@
+.card__title {
+  font-family: $second-font;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: $special-grey;
+}
+
+.card__title--yet {
+  color: $color-black-1;
+  text-transform: uppercase;
+}
+
+.card__text {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.card__button--yet {
+  min-width: 280px;
+  background-color: $program-background-color;
+}
+
+.catalog__item--plus {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__button--plus {
+  cursor: pointer;
+  background-color: $color-white;
+  background-image: url("../../icons/stack.svg#plus");
+  border: none;
+  width: 30px;
+  height: 30px;
+}

@@ -1,4 +1,26 @@
+.present {
+  position: relative;
+  background-image: url("/images/catalog/gift-photo-mobile@2x.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  min-height: 290px;
+}
+
+.present::before {
+  position: absolute;
+  display: block;
+  content: "";
+  background-image: url("../../icons/stack.svg#icon-gift");
+  width: 78px;
+  height: 80px;
+  left: 110px;
+  top: 60px;
+}
+
 .present__text {
+  color: $color-white;
   font-size: 16px;
   line-height: 20px;
+  padding: 187px 60px 43px;
 }

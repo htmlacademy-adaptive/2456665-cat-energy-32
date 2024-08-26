@@ -1,9 +1,11 @@
 .result-item__title {
   margin: 0;
   font-family: $second-font;
+  font-weight: 400;
   font-size: 24px;
   line-height: 24px;
   color: $color-black;
+  text-transform: uppercase;
 }
 
 .result-item__text {

@@ -6,13 +6,18 @@
 
 .contacts__title {
   font-family: $second-font;
+  font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  color: $color-black_1;
+  color: $color-black-1;
   text-transform: uppercase;
 }
 
 .contacts__text {
   font-size: 14px;
   line-height: 20px;
+}
+
+.contacts__address--catalog {
+  background-color: $program-background-color;
 }

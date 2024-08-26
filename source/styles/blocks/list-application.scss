@@ -1,0 +1,54 @@
+.list-application {
+  flex-direction: column;
+  gap: 20px;
+  display: flex;
+}
+
+.list-application__item {
+  display: flex;
+  gap: 20px;
+}
+
+.list-application__description {
+  margin: 0;
+  align-self: center;
+}
+
+.list-application__item::before {
+  content: "";
+  color: $color-white;
+  background-color: $basic-green;
+  flex-shrink: 0;
+  align-self: flex-start;
+  width: 60px;
+  height: 60px;
+  display: flex;
+}
+
+.list-application__item--leaf::before {
+  background-image: url("../../icons/stack.svg#icon-leaf");
+  background-size: 30px 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.list-application__item--boiling::before {
+  background-image: url("../../icons/stack.svg#icon-boiling");
+  background-size: 26px 29px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.list-application__item--eat::before {
+  background-image: url("../../icons/stack.svg#icon-eat");
+  background-size: 25px 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.list-application__item--time::before {
+  background-image: url("../../icons/stack.svg#icon-time");
+  background-size: 26px 31px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
